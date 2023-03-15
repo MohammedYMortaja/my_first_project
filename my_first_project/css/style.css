@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Cairo-Regular;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+body{
+    margin: 0;
+}
+* {
+    font-family: Cairo-Regular;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item .deferent {
+    color: #2F70FE;
+    font-size: 18px;
+    border: #2F70FE 1px solid;
+    padding: 5px 10px;
+}
+
+.pictior {
+    position: relative;
+    width: 100%;
+    height: 533px;
+    background-image: url("../image/Rectangle.png");
+    text-align: center;
+}
+
+.pictior h1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 36px;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.pictior p {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pictior button {
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    padding: 7px 12px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: #000;
+    font-size: 14px;
+    transition: all ease .3s;
+    border: 0;
+    border-radius: 1px;
+}
+
+.pictior button:hover {
+    background: green;
+}
+
+.pictior .hero-left {
+    position: absolute;
+    bottom: -8%;
+    left: 13%;
+    display: block;
+    width: 389px;
+    height: 254px;
+}
+
+.pictior .hero-rhigt {
+    position: absolute;
+    bottom: 7%;
+    right: 13%;
+    display: block;
+    width: 389px;
+    height: 254px;
+}
+
+.container2 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container2 h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.main-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-item {
+    text-align: center;
+    width: 24%;
+
+}
+
+.main-item p {
+    font-size: 14px;
+}
+
+.i {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: #94b1f1;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.i2 {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: #94f196;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 561px;
+    left: 0px;
+    top: 549px;
+    background: rgba(0, 255, 133, 0.08);
+    opacity: 0.6;
+    z-index: -10;
+}
+
+.flo {
+    position: absolute;
+    width: 107px;
+    height: 87px;
+    left: 200px;
+    top: 1000px;
+}
+
+.flo2 {
+    position: absolute;
+    width: 120px;
+    top: 635px;
+    right: 90px;
+}
+
+.mg {
+    margin-top: 13%;
+}
+
+.services-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.services-box .image {
+    width: 40%;
+    height: 40%;
+}
+
+.services-box .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: all ease .3s;
+
+}
+
+.services-box .image img:hover {
+    width: 95%;
+}
+
+.services-box .text {
+    width: 42%;
+}
+
+.services-box .text h3 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.services-box .text p {
+    font-size: 20px;
+}
+
+.services-box .text a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #2F70FE;
+}
+
+.footer {
+    background: #000;
+    width: 100%;
+}
+
+footer ul {
+    padding: 50px 0;
+    list-style: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer ul li {
+    padding: 10px;
+}
+
+footer p {
+    color: #fff;
+}
+
+span {
+    margin-left: 15px;
+    color: #2F70FE;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.p-foot {
+    text-align: right;
+    margin-right: 30%;
+}
